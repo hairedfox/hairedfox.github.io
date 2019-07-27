@@ -1,0 +1,88 @@
+html {
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(red, yellow);
+}
+
+body {
+  width: 960px;
+  min-height: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  background: white;
+  border-radius: 15px;
+}
+/*--------------HEADER-------------------*/
+header {
+  border-bottom: 1px dotted #50c878;
+}
+
+header nav div a {
+  background: #50c878;
+}
+
+header nav div a:hover {
+  background: #43a865!important;
+}
+
+header nav div a:focus {
+  background: #50c878!important;
+}
+
+#personal-brand {
+  font-weight: bold;
+  color: white;
+}
+
+#header-message {
+  font-size: 1.5rem;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+
+/*-----------------MAIN--------------------*/
+main {
+  min-height: 700px;
+}
+
+.details {
+  border-top: 1px solid #ccc;
+}
+
+.skills {
+  padding: 10px;
+  border-right: 1px solid #ccc;
+}
+/*-----------------FOOTER------------------*/
+footer {
+}
+
+/*---------------GENERAL-------------------*/
+.ml-5 {
+  margin-left: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.bb-1 {
+  border-bottom: 1px solid #ccc;
+}
+
+.bl-1 {
+  border-left: 1px solid #ccc;
+}
+
+.custom-link:hover {
+  text-decoration: none !important;
+}
